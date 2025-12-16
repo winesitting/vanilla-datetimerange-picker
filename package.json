@@ -1,0 +1,17 @@
+{
+  "name": "vanilla-datetimerange-picker",
+  "version": "1.0.0",
+  "description": "Winesitting version of vanilla date time range picker",
+  "homepage": "https://github.com/winesitting/vanilla-datetimerange-picker#readme",
+  "bugs": {
+    "url": "https://github.com/winesitting/vanilla-datetimerange-picker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winesitting/vanilla-datetimerange-picker.git"
+  },
+  "license": "ISC",
+  "author": "Winesitting",
+  "type": "module",
+  "main": "dist/vanilla-datetimerange-picker.js"
+}
