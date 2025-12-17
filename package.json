@@ -16,5 +16,8 @@
   "main": "dist/vanilla-datetimerange-picker.js",
   "exports": {
     ".": "./dist/vanilla-datetimerange-picker.js"
+  },
+  "dependencies": {
+    "moment": "^2.30.0"
   }
 }
