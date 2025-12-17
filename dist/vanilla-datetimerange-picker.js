@@ -1071,10 +1071,15 @@ var DateRangePicker;
 
         updateFormInputs: function() {
 
-            if (this.singleDatePicker || (this.endDate && (this.startDate.isBefore(this.endDate) || this.startDate.isSame(this.endDate)))) {
-                this.container.querySelector('button.applyBtn').disabled = false;
+            if (this.singleDatePicker) {
+                this.container.querySelector('button.applyBtn').disabled = false
+                return
+            }
+
+            if (this.endDate && (this.startDate.isBefore(this.endDate) || this.startDate.isSame(this.endDate))) {
+                this.container.querySelector('button.applyBtn').disabled = false
             } else {
-                this.container.querySelector('button.applyBtn').disabled = true;
+                this.container.querySelector('button.applyBtn').disabled = true
             }
 
         },
