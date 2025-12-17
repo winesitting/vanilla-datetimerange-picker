@@ -15,7 +15,8 @@
   "type": "module",
   "main": "dist/vanilla-datetimerange-picker.js",
   "exports": {
-    ".": "./dist/vanilla-datetimerange-picker.js"
+    ".": "./dist/vanilla-datetimerange-picker.js",
+    "./css": "./dist/vanilla-datetimerange-picker.css"
   },
   "dependencies": {
     "moment": "^2.30.0"
