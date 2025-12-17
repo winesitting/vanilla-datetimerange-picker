@@ -13,8 +13,8 @@
   "license": "ISC",
   "author": "Winesitting",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/vanilla-datetimerange-picker.js",
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./dist/vanilla-datetimerange-picker.js"
   }
 }
