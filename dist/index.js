@@ -1,4 +1,4 @@
-import "vanilla-datetimerange-picker.js"
+import "./vanilla-datetimerange-picker.js"
 
 const DateRangePicker = globalThis.DateRangePicker
 
